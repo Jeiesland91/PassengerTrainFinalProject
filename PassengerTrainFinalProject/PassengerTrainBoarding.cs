@@ -53,8 +53,8 @@ namespace PassengerTrainFinalProject
         ***************************************************************/
         private void generatePassengersButton_Click(object sender, EventArgs e)
         {
-            string[] allFirstNames = File.ReadAllLines("RandomFirstNames.txt.");
-            string[] allLastNames = File.ReadAllLines("RandomLastNames.txt.");
+            string[] allFirstNames = File.ReadAllLines(@"C:\Users\Jay\source\repos\PassengerTrainFinalProject\PassengerTrainFinalProject\Resources\RandomFirstNames.txt");
+            string[] allLastNames = File.ReadAllLines(@"C:\Users\Jay\source\repos\PassengerTrainFinalProject\PassengerTrainFinalProject\Resources\RandomLastNames.txt");
             Random rng = new Random();
             _passengerList.Clear();
             ClearPassengerListBox();

@@ -116,5 +116,9 @@
   <ItemGroup>
     <None Include="Resources\First Class Train.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\RandomFirstNames.txt" />
+    <Content Include="Resources\RandomLastNames.txt" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
